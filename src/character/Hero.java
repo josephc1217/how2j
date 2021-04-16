@@ -4,13 +4,29 @@ import Property.Item;
 import Property.LifePotion;
 import Property.MagicPotion;
 
-public abstract class Hero extends Object{
+public class Hero extends Object{
     public static final int itemTotalNumber = 6;  //常亮
     String name; //姓名
     float hp; //血量
     float armor; //护甲
     int moveSpeed; //移动速度
 
+    class BattleScore{
+        int kill;
+        int die;
+        int assit;
+
+        public void legendary(){
+            if(kill >= 8)
+                System.out.println(name + "超神！");
+            else
+                System.out.println(name + "尚未超神！");
+        }
+    }
+
+    static class EnemyCrystal{
+
+    }
 
     public Hero(){
         //System.out.println("Hero 的无参构造方法");
@@ -59,6 +75,10 @@ public abstract class Hero extends Object{
     }
 
     public static void main(String[] args){
-
+        Hero garen = new Hero();
+        garen.name = "盖伦";
+        BattleScore score = garen.new BattleScore();
+        score.kill = 9;
+        score.legendary();
     }
 }
