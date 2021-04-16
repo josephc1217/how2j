@@ -19,4 +19,9 @@ public class ADAPHero extends Hero implements AD,AP,Mortal{
     public void die() {
         System.out.println("ADAPHero will die");
     }
+
+    @Override
+    public void attack() {
+        System.out.println("ad ap hero attack");
+    }
 }
