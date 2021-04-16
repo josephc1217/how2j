@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="7e754752-3229-420b-a5bb-bf95065f701d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/character/AP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/character/AP.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/character/Hero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/character/Hero.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +31,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -98,6 +97,7 @@
       <updated>1618389134894</updated>
       <workItem from="1618389136341" duration="21061000" />
       <workItem from="1618538572218" duration="1363000" />
+      <workItem from="1618575379614" duration="240000" />
     </task>
     <servers />
   </component>
