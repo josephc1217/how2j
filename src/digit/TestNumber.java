@@ -2,22 +2,19 @@ package digit;
 
 public class TestNumber {
     public static void main(String[] args){
-        int i = 5;
-        String str = String.valueOf(i);
 
-        Integer it = i;
-        String str2 = it.toString();
+        String name = "盖伦";
+        int kill = 8;
+        String title = "超神";
 
-        String str3 = "999";
-        int j = Integer.parseInt(str3);
-        System.out.println("j的值为： "+j);
+        //直接使用+进行字符串连接，编码感觉
+        String sentence = name + " 在进行了连续 " + kill + " 次击杀后，获得了 " + title + " 的称号。";
+        System.out.println(sentence);
 
-        float pai = (float)3.14;
-
-        System.out.println(Float.toString(pai));
-        String str4  = Float.toString(pai);
-        float f1 = Float.parseFloat(str4);
-
-
+        String sentenceFormat = "%s 在进行了连续 %d 次击杀后，获得了 %s 的称号。";
+        System.out.printf(sentenceFormat,name,kill,title);
+        System.out.format(sentenceFormat,name,kill,title);
+        System.out.printf("这是换行符%n");
+        System.out.printf("这是换行符%n");
     }
 }
